@@ -1,0 +1,10 @@
+# The HyperFrames CLI does not pass HYPERFRAMES_NO_TELEMETRY into its render container
+# (checked in 0.8.165, buildDockerRunArgs). Bake the opt-out into the image under the tag
+# the CLI looks for, so every Docker render runs with telemetry off (graphics decision 9).
+#
+#   docker build -t hyperframes-renderer:0.8.165-base <stock build>   # the CLI's own image
+#   docker build -f graphics/docker/Dockerfile.no-telemetry -t hyperframes-renderer:0.8.165 graphics/docker
+ARG BASE=hyperframes-renderer:0.8.165-base
+FROM ${BASE}
+ENV HYPERFRAMES_NO_TELEMETRY=1 \
+    DO_NOT_TRACK=1

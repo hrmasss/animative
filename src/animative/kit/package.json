@@ -1,0 +1,17 @@
+{
+  "name": "graphics",
+  "version": "1.0.0",
+  "description": "Deterministic renderer for everything a viewer must read: terminal output, code reveals, network diagrams, timelines, charts, chapter and quote cards, lower thirds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "3.13.0",
+    "hyperframes": "0.8.165"
+  }
+}

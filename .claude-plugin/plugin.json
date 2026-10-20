@@ -1,0 +1,9 @@
+{
+  "name": "animative",
+  "version": "0.1.0",
+  "description": "Make character-hosted explainer videos: a 2D host cut from your own generated sprite sheets presents a fast, always-moving video built from public-domain and Creative Commons footage, generated stills, a directed voice-over, music, effects and kinetic captions.",
+  "author": { "name": "hrmasss" },
+  "repository": "https://github.com/hrmasss/animative",
+  "license": "MIT",
+  "keywords": ["video", "explainer", "animation", "character", "hyperframes", "tts"]
+}

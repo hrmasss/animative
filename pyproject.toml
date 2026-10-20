@@ -1,0 +1,59 @@
+[project]
+name = "animative"
+version = "0.1.0"
+description = "Character-hosted explainer videos: a 2D host cut from generated sprite sheets, sourced footage, a directed voice-over, music and kinetic captions, rendered with HyperFrames."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "hrmasss" }]
+dependencies = [
+    "numpy>=1.26",
+    "pillow>=10",
+    # finds and labels the pieces on a character sheet (animative cut / inspect)
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+# free voices that read flat (no shouting): edge_tts online, Kokoro offline
+edge = ["edge-tts>=7.2"]
+kokoro = ["kokoro>=0.7", "soundfile>=0.13"]
+
+[project.scripts]
+animative = "animative.cli:run"
+
+[project.urls]
+Repository = "https://github.com/hrmasss/animative"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6", "pyright>=1.1.380"]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/animative"]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/skills", "/.claude-plugin", "/.github"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+extend-exclude = ["src/animative/kit"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+ignore = ["E501", "RUF001", "RUF002", "RUF003"]
+
+[tool.pyright]
+include = ["src", "tests"]
+exclude = ["src/animative/kit", "**/node_modules", "**/__pycache__", ".venv"]
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
+venvPath = "."
+venv = ".venv"
+reportMissingTypeStubs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

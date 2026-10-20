@@ -1,0 +1,99 @@
+{
+  "id": "<name>",
+  "summary": "One line: who this host is and what they look like. Faces are drawn blank; eyes, nose and mouth are swapped on top.",
+  "sources": {
+    "_": "One entry per sprite sheet in sources/, e.g. \"poses\": \"sources/poses.png\". Replace this line."
+  },
+  "groups": [],
+  "faceless": [],
+  "face_overrides": {},
+  "face_detect": {
+    "_": "How each pose's blank face is found. skin: the face's colour range on these sheets (sample it from reference.png); remove the key for the default warm skin range. mode 'manual': no detection, every pose needs a face_overrides entry.",
+    "skin": {
+      "r_min": 190,
+      "g_min": 120,
+      "g_max": 210,
+      "b_min": 70,
+      "b_max": 170,
+      "r_minus_b": 60
+    }
+  },
+  "face": {
+    "_": "Placement, as shares of each pose's face width. The beard line is where face skin ends below its centre: the chin on a clean-shaven host, so mouth_y goes negative (about -0.25) to sit the mouth above it. Tune with the model sheet's face guides.",
+    "eye_ref": "",
+    "eye_width": 0.36,
+    "eye_dx": 0.22,
+    "eye_y": 0.56,
+    "mouth_ref": "",
+    "mouth_width": 0.42,
+    "mouth_y": -0.25,
+    "nose": "",
+    "nose_width": 0.2,
+    "nose_y": 0.62,
+    "blink": "",
+    "shout_mouth": ""
+  },
+  "expressions": {
+    "_": "eyes: [left, right]; 'mirror' flips the left piece. tilt: degrees, positive raises the inner brow (sad), negative lowers it (angry). pose is the default body for this feeling; any pose takes any expression. Twelve is a good set: neutral, happy, delighted, excited, surprised, sad, angry, skeptical, thinking, worried, confident, unimpressed. neutral is required.",
+    "neutral": {
+      "pose": "",
+      "eyes": [
+        "",
+        "mirror"
+      ],
+      "mouth": ""
+    }
+  },
+  "visemes": {
+    "_": "Mouth shape per sound group, after the classic animation chart. rest is the closed mouth between phrases. All ten are needed for lip-sync.",
+    "rest": {
+      "mouth": "",
+      "sounds": "pause"
+    },
+    "MBP": {
+      "mouth": "",
+      "sounds": "m b p"
+    },
+    "AI": {
+      "mouth": "",
+      "sounds": "a i"
+    },
+    "E": {
+      "mouth": "",
+      "sounds": "e ee"
+    },
+    "O": {
+      "mouth": "",
+      "sounds": "o"
+    },
+    "U": {
+      "mouth": "",
+      "sounds": "u oo w q"
+    },
+    "FV": {
+      "mouth": "",
+      "sounds": "f v"
+    },
+    "L": {
+      "mouth": "",
+      "sounds": "l th"
+    },
+    "etc": {
+      "mouth": "",
+      "sounds": "c d g k n r s t y z"
+    },
+    "open": {
+      "mouth": "",
+      "sounds": "stressed vowel"
+    }
+  },
+  "limits": [
+    {
+      "_": "What this host cannot do yet, shown on its model sheet. One entry per limit.",
+      "limit": "",
+      "seen": "",
+      "fix": "",
+      "status": "gap"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "animative",
+  "owner": { "name": "hrmasss" },
+  "description": "Character-hosted explainer videos with Claude Code.",
+  "plugins": [
+    {
+      "name": "animative",
+      "source": ".",
+      "description": "Make character-hosted explainer videos: your own 2D host, sourced footage, a directed voice-over, music and kinetic captions."
+    }
+  ]
+}

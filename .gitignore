@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+/dist/
+/build/
+node_modules/
+.env
+# a workspace made while trying things out
+/.animative/
+/characters/
+/projects/

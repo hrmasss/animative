@@ -1,0 +1,1163 @@
+{
+  "schema_version": "1.0.0",
+  "id": "001",
+  "title": "The Drone War",
+  "summary": "Explainer on combat and warfare drones: who built each one, when, and what it is for. Fast, loud, always moving. A chibi host presents in cutaways.",
+  "frame_rate": {
+    "num": 30000,
+    "den": 1001
+  },
+  "aspect": "16:9",
+  "beat_template": "freytag_light+cold_open",
+  "backend": {
+    "video": "",
+    "still": "",
+    "tts": ""
+  },
+  "grade": {
+    "lut": "library/luts/.gitkeep",
+    "palette": []
+  },
+  "colour_script": [],
+  "pronunciations": [
+    {
+      "term": "Bayraktar",
+      "say": "bye-rahk-TAR"
+    },
+    {
+      "term": "Baykar",
+      "say": "BYE-kar"
+    },
+    {
+      "term": "Kızılelma",
+      "say": "kuh-zuhl-EL-mah"
+    },
+    {
+      "term": "Shahed",
+      "say": "shah-HED"
+    },
+    {
+      "term": "Geran",
+      "say": "geh-RAHN"
+    },
+    {
+      "term": "Magura",
+      "say": "mah-GOO-rah"
+    },
+    {
+      "term": "Harop",
+      "say": "HAH-rop"
+    },
+    {
+      "term": "Bekaa",
+      "say": "beh-KAH"
+    },
+    {
+      "term": "Nagorno-Karabakh",
+      "say": "nuh-GOR-noh kah-rah-BAHK"
+    },
+    {
+      "term": "AVIC",
+      "say": "letter by letter"
+    },
+    {
+      "term": "Wing Loong",
+      "say": "wing loong"
+    },
+    {
+      "term": "MQ-9",
+      "say": "M-Q nine"
+    },
+    {
+      "term": "XQ-58",
+      "say": "X-Q fifty-eight"
+    },
+    {
+      "term": "FPV",
+      "say": "letter by letter"
+    }
+  ],
+  "entities": [
+    "host"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "beat": "cold-open",
+      "start": 0,
+      "end": 2,
+      "kind": "archival",
+      "what": "FPV drone point-of-view, skimming low over a field",
+      "size": "WS",
+      "angle": "aerial",
+      "movement": "handheld",
+      "source": {
+        "want": "FPV drone point-of-view video",
+        "url": "https://www.dvidshub.net/video/1006004/24th-meu-fpv-drone-pov",
+        "license": "PD",
+        "credit": "U.S. Marine Corps, 24th MEU"
+      },
+      "presenter": {
+        "pose": "dive-pistol",
+        "feeling": "surprised",
+        "placement": "pops in from left, squash on landing"
+      },
+      "sfx": [
+        "drone whine rising",
+        "scream hit"
+      ]
+    },
+    {
+      "id": "s02",
+      "beat": "cold-open",
+      "start": 2,
+      "end": 4,
+      "kind": "still_motion",
+      "what": "Small FPV quadcopter on a bench",
+      "size": "ECU",
+      "angle": "high",
+      "movement": "dolly_in",
+      "source": {
+        "want": "FPV drone close-up, public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:2ID-RUCD,_Marines,_strengthen_lethality_during_FPV_drone_training_(9853488).jpg",
+        "license": "PD",
+        "credit": "U.S. Army / Sgt. Tyler Wassmer"
+      },
+      "graphic": {
+        "component": "kinetic-caption",
+        "data": {
+          "text": "A FEW HUNDRED $"
+        }
+      },
+      "sfx": [
+        "cash register blip"
+      ]
+    },
+    {
+      "id": "s03",
+      "beat": "cold-open",
+      "start": 4,
+      "end": 6,
+      "kind": "graphic",
+      "what": "Drone silhouette with a payload callout underneath",
+      "movement": "zoom_in",
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "fpv-payload"
+        }
+      },
+      "sfx": [
+        "click",
+        "whoosh"
+      ]
+    },
+    {
+      "id": "s04",
+      "beat": "cold-open",
+      "start": 6,
+      "end": 9,
+      "kind": "still_motion",
+      "what": "Main battle tank on a range",
+      "size": "WS",
+      "angle": "low",
+      "movement": "zoom_out",
+      "source": {
+        "want": "M1 Abrams on a range, DVIDS (public domain)",
+        "url": "https://www.dvidshub.net/image/9351324",
+        "license": "PD",
+        "credit": "U.S. Army / Spc. Brandi Frizzell",
+        "virin": "251002-A-QU182-1001"
+      },
+      "graphic": {
+        "component": "kinetic-caption",
+        "data": {
+          "text": "$ MILLIONS"
+        }
+      },
+      "presenter": {
+        "pose": "fists-guard",
+        "feeling": "surprised",
+        "placement": "right third"
+      },
+      "sfx": [
+        "impact boom",
+        "camera shake"
+      ]
+    },
+    {
+      "id": "s05",
+      "beat": "title",
+      "start": 9,
+      "end": 14,
+      "kind": "graphic",
+      "what": "Title card: THE DRONE WAR, rotor-blur wipe, glitch",
+      "movement": "zoom_in",
+      "graphic": {
+        "component": "title-card",
+        "data": {
+          "title": "THE DRONE WAR"
+        }
+      },
+      "presenter": {
+        "pose": "rifle-ready",
+        "feeling": "confident",
+        "placement": "slides in right, settles with stretch"
+      },
+      "sfx": [
+        "bass drop",
+        "whoosh"
+      ]
+    },
+    {
+      "id": "s06",
+      "beat": "origins",
+      "start": 14,
+      "end": 16,
+      "kind": "graphic",
+      "what": "Year ticker spins to 1918, map pings USA",
+      "graphic": {
+        "component": "year-ticker",
+        "data": {
+          "year": 1918,
+          "map": "USA"
+        }
+      },
+      "sfx": [
+        "tick-tick",
+        "ping"
+      ]
+    },
+    {
+      "id": "s07",
+      "beat": "origins",
+      "start": 16,
+      "end": 21,
+      "kind": "archival",
+      "what": "Kettering Bug on its launch dolly, sepia, film grain",
+      "size": "MS",
+      "angle": "eye_level",
+      "movement": "pan",
+      "source": {
+        "want": "Kettering Bug photo, US Air Force museum, public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Kettering-bug-1.jpeg",
+        "license": "PD",
+        "credit": "U.S. Air Force Museum"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Kettering Bug",
+          "country": "USA",
+          "maker": "Dayton-Wright",
+          "role": "aerial torpedo",
+          "year": "1918",
+          "year_means": "first flight"
+        }
+      },
+      "presenter": {
+        "pose": "present-right",
+        "feeling": "neutral",
+        "placement": "left third"
+      },
+      "sfx": [
+        "old projector rattle"
+      ]
+    },
+    {
+      "id": "s08",
+      "beat": "origins",
+      "start": 21,
+      "end": 23,
+      "kind": "graphic",
+      "what": "Stamp: NEVER SAW COMBAT",
+      "graphic": {
+        "component": "stamp",
+        "data": {
+          "text": "NEVER SAW COMBAT"
+        }
+      },
+      "presenter": {
+        "pose": "shrug",
+        "feeling": "unimpressed",
+        "placement": "centre"
+      },
+      "sfx": [
+        "stamp thud"
+      ]
+    },
+    {
+      "id": "s09",
+      "beat": "origins",
+      "start": 23,
+      "end": 27,
+      "kind": "graphic",
+      "what": "Bekaa diagram, steps 1 and 2: decoy drones fly in, Syrian radars light up",
+      "movement": "truck",
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "bekaa-1982",
+          "steps": [
+            1,
+            2
+          ],
+          "year": 1982
+        }
+      },
+      "sfx": [
+        "radar ping x3"
+      ]
+    },
+    {
+      "id": "s10",
+      "beat": "origins",
+      "start": 27,
+      "end": 33,
+      "kind": "still_motion",
+      "what": "Tadiran Mastiff drone, then diagram step 3: jets strike, radar icons crossed out",
+      "size": "MS",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "Tadiran Mastiff drone photo",
+        "url": "https://commons.wikimedia.org/wiki/File:USMC_Mastiff_III_UAV,_Tadiran,_1975_-_Evergreen_Aviation_%26_Space_Museum_-_McMinnville,_Oregon_-_DSC01103.jpg",
+        "license": "CC0",
+        "credit": "Daderot"
+      },
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "bekaa-1982",
+          "steps": [
+            3
+          ]
+        }
+      },
+      "presenter": {
+        "pose": "point-up",
+        "feeling": "surprised",
+        "placement": "right third"
+      },
+      "sfx": [
+        "jet flyby",
+        "explosion x3"
+      ]
+    },
+    {
+      "id": "s11",
+      "beat": "hunters",
+      "start": 33,
+      "end": 36,
+      "kind": "archival",
+      "what": "MQ-1 Predator taxiing",
+      "size": "MS",
+      "angle": "low",
+      "movement": "dolly_in",
+      "source": {
+        "want": "MQ-1 Predator taxi or takeoff b-roll, DVIDS",
+        "url": "https://www.dvidshub.net/video/510819/mq-1-predator",
+        "license": "PD",
+        "credit": "U.S. Air Force / TSgt Lance Daigle"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "MQ-1 Predator",
+          "country": "USA",
+          "maker": "General Atomics",
+          "role": "surveillance, then strike",
+          "year": "1994",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "turboprop hum"
+      ]
+    },
+    {
+      "id": "s12",
+      "beat": "hunters",
+      "start": 36,
+      "end": 41,
+      "kind": "archival",
+      "what": "Predator in flight",
+      "size": "WS",
+      "angle": "aerial",
+      "movement": "truck",
+      "source": {
+        "want": "MQ-1 Predator in flight, DVIDS",
+        "url": "https://www.dvidshub.net/video/510819/mq-1-predator",
+        "license": "PD",
+        "credit": "U.S. Air Force / TSgt Lance Daigle"
+      },
+      "presenter": {
+        "pose": "point-side",
+        "feeling": "neutral",
+        "placement": "left third, pointing at drone"
+      },
+      "sfx": [
+        "wind"
+      ]
+    },
+    {
+      "id": "s13",
+      "beat": "hunters",
+      "start": 41,
+      "end": 45,
+      "kind": "still_motion",
+      "what": "Hellfire missile on the Predator's wing rail",
+      "size": "ECU",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "Predator with Hellfire, DVIDS",
+        "url": "https://commons.wikimedia.org/wiki/File:MQ-1_Predator,_armed_with_AGM-114_Hellfire_missiles.jpg",
+        "license": "PD",
+        "credit": "U.S. Air Force / Lt. Col. Leslie Pratt"
+      },
+      "graphic": {
+        "component": "kinetic-caption",
+        "data": {
+          "text": "HELLFIRE!",
+          "year": 2001,
+          "map": "Afghanistan"
+        }
+      },
+      "sfx": [
+        "missile whoosh",
+        "hit"
+      ]
+    },
+    {
+      "id": "s14",
+      "beat": "hunters",
+      "start": 45,
+      "end": 51,
+      "kind": "archival",
+      "what": "MQ-9 Reaper takeoff",
+      "size": "WS",
+      "angle": "low",
+      "movement": "pan",
+      "source": {
+        "want": "MQ-9 Reaper takeoff b-roll, DVIDS",
+        "url": "https://www.dvidshub.net/video/449755/mq9-mission-and-take-off-landing-b-roll",
+        "license": "PD",
+        "credit": "U.S. Air Force / SrA Randahl Jenson"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "MQ-9 Reaper",
+          "country": "USA",
+          "maker": "General Atomics",
+          "role": "hunter-killer",
+          "year": "2001",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "turboprop roar"
+      ]
+    },
+    {
+      "id": "s15",
+      "beat": "hunters",
+      "start": 51,
+      "end": 55,
+      "kind": "graphic",
+      "what": "Spec card: 20 m wingspan, 24 h+ in the air",
+      "movement": "zoom_out",
+      "graphic": {
+        "component": "spec-card",
+        "data": {
+          "wingspan_m": 20,
+          "endurance": "24 h+"
+        }
+      },
+      "sfx": [
+        "data blips"
+      ]
+    },
+    {
+      "id": "s16",
+      "beat": "hunters",
+      "start": 55,
+      "end": 62,
+      "kind": "archival",
+      "what": "Reaper crew at the ground control station",
+      "size": "MS",
+      "angle": "eye_level",
+      "movement": "truck",
+      "source": {
+        "want": "Reaper crew at their ground control station",
+        "url": "https://www.dvidshub.net/video/449755/mq9-mission-and-take-off-landing-b-roll",
+        "license": "PD",
+        "credit": "U.S. Air Force / SrA Randahl Jenson"
+      },
+      "graphic": {
+        "component": "map-arc",
+        "data": {
+          "from": "Nevada",
+          "to": "Middle East"
+        }
+      },
+      "presenter": {
+        "pose": "scratch-head",
+        "feeling": "thinking",
+        "placement": "right third"
+      },
+      "sfx": [
+        "radio chatter low"
+      ]
+    },
+    {
+      "id": "s17",
+      "beat": "game-changers",
+      "start": 62,
+      "end": 66,
+      "kind": "archival",
+      "what": "Bayraktar TB2 on the ground",
+      "size": "MS",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "Bayraktar TB2 photo, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_of_UAF,_2019,_01.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Ministry of Defence of Ukraine / ArmyInform"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Bayraktar TB2",
+          "country": "Turkey",
+          "maker": "Baykar",
+          "role": "strike and surveillance",
+          "year": "2014",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "whoosh"
+      ]
+    },
+    {
+      "id": "s18",
+      "beat": "game-changers",
+      "start": 66,
+      "end": 71,
+      "kind": "graphic",
+      "what": "Export map: 30+ countries light up one by one",
+      "graphic": {
+        "component": "world-map",
+        "data": {
+          "highlight": "tb2-operators"
+        }
+      },
+      "sfx": [
+        "ping cascade"
+      ]
+    },
+    {
+      "id": "s19",
+      "beat": "game-changers",
+      "start": 71,
+      "end": 76,
+      "kind": "graphic",
+      "what": "Nagorno-Karabakh locator, TB2 silhouette sweeping over, 2020",
+      "movement": "truck",
+      "graphic": {
+        "component": "world-map",
+        "data": {
+          "locator": "Nagorno-Karabakh",
+          "year": 2020
+        }
+      },
+      "sfx": [
+        "drone pass"
+      ]
+    },
+    {
+      "id": "s20",
+      "beat": "game-changers",
+      "start": 76,
+      "end": 79,
+      "kind": "graphic",
+      "what": "Presenter full frame, music notes burst",
+      "presenter": {
+        "pose": "cheer",
+        "feeling": "delighted",
+        "placement": "full frame, bounce"
+      },
+      "sfx": [
+        "record scratch",
+        "crowd cheer"
+      ]
+    },
+    {
+      "id": "s21",
+      "beat": "game-changers",
+      "start": 79,
+      "end": 85,
+      "kind": "archival",
+      "what": "Wing Loong II at an airshow",
+      "size": "WS",
+      "angle": "dutch",
+      "movement": "truck",
+      "source": {
+        "want": "Wing Loong II airshow photo, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Wing_Loong_II_side_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Mztourist"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Wing Loong II",
+          "country": "China",
+          "maker": "AVIC",
+          "role": "strike, export",
+          "year": "2017",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "whoosh",
+        "ping x3"
+      ]
+    },
+    {
+      "id": "s22",
+      "beat": "kamikazes",
+      "start": 85,
+      "end": 89,
+      "kind": "graphic",
+      "what": "Grade drops to red, slow heartbeat, presenter worried",
+      "movement": "dolly_in",
+      "presenter": {
+        "pose": "scratch-head",
+        "feeling": "worried",
+        "placement": "centre"
+      },
+      "sfx": [
+        "heartbeat",
+        "low drone"
+      ]
+    },
+    {
+      "id": "s23",
+      "beat": "kamikazes",
+      "start": 89,
+      "end": 94,
+      "kind": "archival",
+      "what": "IAI Harop, then loiter diagram: launch, circle, dive",
+      "size": "MS",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "IAI Harop airshow photo, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:IAI_Harop_PAS_2013_01.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Julian Herzog"
+      },
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "loiter-dive",
+          "card": {
+            "name": "Harop",
+            "country": "Israel",
+            "maker": "IAI",
+            "role": "anti-radar loitering munition",
+            "year": "2009",
+            "year_means": "first shown"
+          }
+        }
+      },
+      "sfx": [
+        "radar ping",
+        "dive whistle"
+      ]
+    },
+    {
+      "id": "s24",
+      "beat": "kamikazes",
+      "start": 94,
+      "end": 99,
+      "kind": "archival",
+      "what": "Switchblade launched from its tube",
+      "size": "MS",
+      "angle": "eye_level",
+      "movement": "handheld",
+      "source": {
+        "want": "Switchblade 300 launch, DVIDS",
+        "url": "https://www.dvidshub.net/video/1015573/2nd-recon-conducts-switchblade-operations",
+        "license": "PD",
+        "credit": "U.S. Marine Corps / Cpl. Isaac Llanez Delgado"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Switchblade",
+          "country": "USA",
+          "maker": "AeroVironment",
+          "role": "backpack loitering munition",
+          "year": "2011",
+          "year_means": "introduced"
+        }
+      },
+      "presenter": {
+        "pose": "grenade-throw",
+        "feeling": "excited",
+        "placement": "right third, on BOOM"
+      },
+      "sfx": [
+        "tube pop",
+        "boom"
+      ]
+    },
+    {
+      "id": "s25",
+      "beat": "kamikazes",
+      "start": 99,
+      "end": 106,
+      "kind": "archival",
+      "what": "Shahed-136 wreckage",
+      "size": "MCU",
+      "angle": "high",
+      "movement": "dolly_in",
+      "source": {
+        "want": "Shahed-136 wreckage in Ukraine, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Shahed_drone_in_Sumy_Oblast_(2024-10-17)_01.jpg",
+        "license": "CC BY 4.0",
+        "credit": "National Police of Ukraine"
+      },
+      "graphic": {
+        "component": "map-arc",
+        "data": {
+          "from": "Iran",
+          "via": "Russia",
+          "to": "Ukraine",
+          "card": {
+            "name": "Shahed-136 / Geran-2",
+            "country": "Iran",
+            "maker": "Shahed Aviation Industries",
+            "role": "one-way attack drone",
+            "year": "2021",
+            "year_means": "first seen"
+          }
+        }
+      },
+      "presenter": {
+        "pose": "hand-on-chest",
+        "feeling": "sad",
+        "placement": "left third"
+      },
+      "sfx": [
+        "moped buzz",
+        "distant siren"
+      ]
+    },
+    {
+      "id": "s26",
+      "beat": "kamikazes",
+      "start": 106,
+      "end": 113,
+      "kind": "archival",
+      "what": "ZALA Lancet at a defence expo",
+      "size": "MS",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "ZALA Lancet expo photo, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:ZALA_Lancet_1.jpg",
+        "license": "CC0",
+        "credit": "Nickel nitride"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Lancet",
+          "country": "Russia",
+          "maker": "ZALA Aero",
+          "role": "loitering munition vs artillery",
+          "year": "2019",
+          "year_means": "unveiled"
+        }
+      },
+      "sfx": [
+        "whoosh",
+        "impact"
+      ]
+    },
+    {
+      "id": "s27",
+      "beat": "fpv",
+      "start": 113,
+      "end": 117,
+      "kind": "archival",
+      "what": "FPV drone racing low, speed ramp",
+      "size": "WS",
+      "angle": "aerial",
+      "movement": "handheld",
+      "source": {
+        "want": "FPV flight, DVIDS",
+        "url": "https://www.dvidshub.net/video/1006004/24th-meu-fpv-drone-pov",
+        "license": "PD",
+        "credit": "U.S. Marine Corps, 24th MEU"
+      },
+      "sfx": [
+        "FPV whine"
+      ]
+    },
+    {
+      "id": "s28",
+      "beat": "fpv",
+      "start": 117,
+      "end": 121,
+      "kind": "archival",
+      "what": "Pilot in FPV goggles",
+      "size": "MCU",
+      "angle": "eye_level",
+      "movement": "dolly_in",
+      "source": {
+        "want": "soldier with FPV goggles, DVIDS",
+        "url": "https://commons.wikimedia.org/wiki/File:US_combat_engineers_operate_FPV_drones_in_Tunisia_(9066495).jpg",
+        "license": "PD",
+        "credit": "U.S. Army / Sgt. Mariah Gonzalez"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "FPV drones",
+          "country": "Ukraine & Russia",
+          "maker": "many small makers",
+          "role": "cheap kamikaze",
+          "year": "2022",
+          "year_means": "mass use from"
+        }
+      },
+      "presenter": {
+        "pose": "phone",
+        "feeling": "excited",
+        "placement": "right third"
+      },
+      "sfx": [
+        "static burst"
+      ]
+    },
+    {
+      "id": "s29",
+      "beat": "fpv",
+      "start": 121,
+      "end": 125,
+      "kind": "graphic",
+      "what": "Counter races past 1.1 million, Ukraine 2024",
+      "graphic": {
+        "component": "counter",
+        "data": {
+          "to": "1,100,000+",
+          "unit": "FPVs fielded by Ukraine in 2024",
+          "flag": "UA"
+        }
+      },
+      "sfx": [
+        "counter roll",
+        "bass hit"
+      ]
+    },
+    {
+      "id": "s30",
+      "beat": "fpv",
+      "start": 125,
+      "end": 129,
+      "kind": "graphic",
+      "what": "Jamming diagram: radio link zapped, then fibre link holds",
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "fpv-jam-vs-fibre"
+        }
+      },
+      "presenter": {
+        "pose": "fists-ready",
+        "feeling": "angry",
+        "placement": "left third, on Fine!"
+      },
+      "sfx": [
+        "jammer buzz",
+        "glass break"
+      ]
+    },
+    {
+      "id": "s31",
+      "beat": "fpv",
+      "start": 129,
+      "end": 133,
+      "kind": "still_motion",
+      "what": "Fibre-optic spool under an FPV drone",
+      "size": "ECU",
+      "angle": "low",
+      "movement": "zoom_in",
+      "source": {
+        "want": "fibre-optic FPV b-roll",
+        "url": "https://www.dvidshub.net/video/994341/b-roll-marines-evaluate-fiber-optic-fpv-drones-during-diu-challenge",
+        "license": "PD",
+        "credit": "U.S. Marine Corps / LCpl Kelani Franklin"
+      },
+      "graphic": {
+        "component": "kinetic-caption",
+        "data": {
+          "text": "YOU CAN'T JAM A WIRE"
+        }
+      },
+      "sfx": [
+        "cable whir"
+      ]
+    },
+    {
+      "id": "s32",
+      "beat": "sea",
+      "start": 133,
+      "end": 138,
+      "kind": "still_motion",
+      "what": "Magura V5 stamp artwork, water spray and wake added over it",
+      "size": "WS",
+      "angle": "low",
+      "movement": "truck",
+      "source": {
+        "want": "Magura V5 stamp artwork",
+        "url": "https://commons.wikimedia.org/wiki/File:Stamp_of_Ukraine_s2086.jpg",
+        "license": "PD",
+        "credit": "Ukrposhta"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Magura V5",
+          "country": "Ukraine",
+          "maker": "HUR (defence intelligence)",
+          "role": "explosive sea drone",
+          "year": "2023",
+          "year_means": "unveiled"
+        }
+      },
+      "sfx": [
+        "engine roar",
+        "spray"
+      ]
+    },
+    {
+      "id": "s33",
+      "beat": "sea",
+      "start": 138,
+      "end": 144,
+      "kind": "graphic",
+      "what": "Black Sea map, ship icons sinking",
+      "graphic": {
+        "component": "world-map",
+        "data": {
+          "locator": "Black Sea",
+          "event": "ships sunk"
+        }
+      },
+      "presenter": {
+        "pose": "present-right",
+        "feeling": "excited",
+        "placement": "left third"
+      },
+      "sfx": [
+        "sonar ping",
+        "sink rumble"
+      ]
+    },
+    {
+      "id": "s34",
+      "beat": "next",
+      "start": 144,
+      "end": 149,
+      "kind": "archival",
+      "what": "XQ-58 Valkyrie rocket-assisted launch",
+      "size": "WS",
+      "angle": "low",
+      "movement": "pan",
+      "source": {
+        "want": "XQ-58 Valkyrie launch, DVIDS",
+        "url": "https://www.dvidshub.net/video/899651/us-marine-corps-xq-58a-valkyrie-completes-first-flight",
+        "license": "PD",
+        "credit": "U.S. Marine Corps / MSgt Tristan McIntire"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "XQ-58 Valkyrie",
+          "country": "USA",
+          "maker": "Kratos",
+          "role": "loyal wingman",
+          "year": "2019",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "rocket launch"
+      ]
+    },
+    {
+      "id": "s35",
+      "beat": "next",
+      "start": 149,
+      "end": 153,
+      "kind": "archival",
+      "what": "Baykar Kizilelma",
+      "size": "MS",
+      "angle": "dutch",
+      "movement": "zoom_in",
+      "source": {
+        "want": "Kizilelma photo, Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Baykar_Bayraktar_Kızılelma_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "credit": "Office of the President of Ukraine"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "Kızılelma",
+          "country": "Turkey",
+          "maker": "Baykar",
+          "role": "unmanned fighter",
+          "year": "2022",
+          "year_means": "first flight"
+        }
+      },
+      "sfx": [
+        "jet whoosh"
+      ]
+    },
+    {
+      "id": "s36",
+      "beat": "next",
+      "start": 153,
+      "end": 157,
+      "kind": "graphic",
+      "what": "Swarm: dots flock and lock together, seeded so every render matches",
+      "graphic": {
+        "component": "swarm",
+        "data": {
+          "seed": 1
+        }
+      },
+      "presenter": {
+        "pose": "think-chin-b",
+        "feeling": "thinking",
+        "placement": "right third"
+      },
+      "sfx": [
+        "whisper reverb",
+        "swarm hum"
+      ]
+    },
+    {
+      "id": "s37",
+      "beat": "outro",
+      "start": 157,
+      "end": 163,
+      "kind": "graphic",
+      "what": "Recap: every drone on one timeline, 1918 to now, fast zoom out",
+      "movement": "zoom_out",
+      "graphic": {
+        "component": "timeline",
+        "data": {
+          "recap": true
+        }
+      },
+      "sfx": [
+        "build riser"
+      ]
+    },
+    {
+      "id": "s38",
+      "beat": "outro",
+      "start": 163,
+      "end": 168,
+      "kind": "graphic",
+      "what": "Presenter full frame waving, comment prompt, end card",
+      "graphic": {
+        "component": "end-card",
+        "data": {
+          "prompt": "Which drone shocked you most?"
+        }
+      },
+      "presenter": {
+        "pose": "wave",
+        "feeling": "happy",
+        "placement": "full frame"
+      },
+      "sfx": [
+        "stinger"
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "beat": "beats/01-cold-open.md"
+    },
+    {
+      "beat": "beats/02-title.md"
+    },
+    {
+      "beat": "beats/03-origins.md"
+    },
+    {
+      "beat": "beats/04-hunters.md"
+    },
+    {
+      "beat": "beats/05-game-changers.md"
+    },
+    {
+      "beat": "beats/06-kamikazes.md"
+    },
+    {
+      "beat": "beats/07-fpv.md"
+    },
+    {
+      "beat": "beats/08-sea.md"
+    },
+    {
+      "beat": "beats/09-next.md"
+    },
+    {
+      "beat": "beats/10-outro.md"
+    }
+  ],
+  "always_on": [
+    {
+      "component": "captions",
+      "data": {
+        "style": "kinetic, word-timed; shouted words scale up and shake"
+      }
+    },
+    {
+      "component": "year-ticker",
+      "data": {
+        "corner": "top-left",
+        "from": 1918
+      }
+    },
+    {
+      "component": "music-bed",
+      "data": {
+        "mood": "high-energy hybrid trap with orchestral hits",
+        "duck_under_voice_db": -12
+      }
+    }
+  ],
+  "motion_rules": [
+    "nothing sits still: every still gets a move (zoom, pan, truck, dutch drift) and every move eases",
+    "cut on the beat, 2 to 5 seconds a shot",
+    "impacts get a 6-frame shake and a white flash",
+    "single-frame presenter poses move with squash and stretch, never a tween between poses"
+  ],
+  "character": "host",
+  "voice_style": "You are the host of a fast, loud, funny YouTube explainer about combat drones. Your delivery is very energetic and dramatic, with real shouts and screams where marked."
+}

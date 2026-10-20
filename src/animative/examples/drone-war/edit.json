@@ -1,0 +1,564 @@
+{
+  "_": "The cut's edit decisions: which file and in-point each shot uses, anchors for impacts and effects, inserted b-roll. Anchors: 'w:WORD' is when that word starts in the voice, a number is seconds into the shot, a negative number counts from the shot's end. File paths are relative to projects/<slug>/assets/. Read by animative/build.py.",
+  "beat_gap": 0.25,
+  "tail": 1.5,
+  "render_docker": false,
+  "sfx_gain_db": -7.5,
+  "music": {
+    "file": "sound/music/hybrid-trap-bed.wav",
+    "lufs": -20,
+    "in": 0,
+    "gain_db": 0
+  },
+  "voice": {
+    "_": "Which take each beat uses, by file name in assets/voice/takes/. Empty: the newest take per beat."
+  },
+  "sources": {
+    "gen:dawn-sky": {
+      "file": "generated/agy/dawn-sky.png"
+    },
+    "gen:airfield-1918": {
+      "file": "generated/agy/airfield-1918.png"
+    },
+    "gen:control-room": {
+      "file": "generated/agy/control-room.png"
+    },
+    "gen:desert-sunset-silhouette": {
+      "file": "generated/agy/desert-sunset-silhouette.png"
+    },
+    "gen:map-texture": {
+      "file": "generated/agy/map-texture.png"
+    },
+    "gen:storm-swarm": {
+      "file": "generated/agy/storm-swarm.png"
+    },
+    "gen:sea-spray": {
+      "file": "generated/agy/sea-spray.png"
+    },
+    "gen:red-night-sky": {
+      "file": "generated/agy/red-night-sky.png"
+    },
+    "gen:fibre-spool": {
+      "file": "generated/agy/fibre-spool.png"
+    },
+    "s01": {
+      "file": "sources/s01-s27-fpv-pov.mp4",
+      "in": 22,
+      "len": 8
+    },
+    "s02": {
+      "file": "sources/s02-neros-archer-staged.jpg"
+    },
+    "s04": {
+      "file": "sources/s04-m1a2-abrams-range.jpg"
+    },
+    "s07": {
+      "file": "sources/s07-kettering-bug.jpg"
+    },
+    "s10": {
+      "file": "sources/s10-mastiff.jpg",
+      "fit": "contain",
+      "crops": [
+        null,
+        [
+          1.3,
+          35,
+          55
+        ],
+        [
+          1.25,
+          60,
+          50
+        ]
+      ]
+    },
+    "s11": {
+      "file": "sources/s11-s12-predator-takeoff-recovery.mp4",
+      "in": 20.3,
+      "len": 3.5
+    },
+    "s12": {
+      "file": "sources/s11-s12-predator-takeoff-recovery.mp4",
+      "in": 72,
+      "len": 10
+    },
+    "s13": {
+      "file": "sources/s13-predator-hellfire.jpg"
+    },
+    "s14": {
+      "file": "sources/s14-reaper-takeoff.mp4",
+      "in": 234,
+      "len": 11
+    },
+    "s16": {
+      "file": "sources/s14-reaper-takeoff.mp4",
+      "in": 99,
+      "len": 20
+    },
+    "s17": {
+      "file": "sources/s17-tb2.jpg"
+    },
+    "s21": {
+      "file": "sources/s21-wing-loong-ii.jpg"
+    },
+    "s23": {
+      "file": "sources/s23-harop.jpg"
+    },
+    "s24": {
+      "file": "sources/s24-switchblade-launch.mp4",
+      "in": 62,
+      "len": 6
+    },
+    "s25": {
+      "file": "sources/s25-shahed-wreckage.jpg"
+    },
+    "s26": {
+      "file": "sources/s26-lancet.jpg",
+      "fit": "contain"
+    },
+    "s27": {
+      "file": "sources/s01-s27-fpv-pov.mp4",
+      "in": 374,
+      "len": 8
+    },
+    "s28": {
+      "file": "sources/s28-fpv-goggles-tunisia.jpg",
+      "fit": "contain"
+    },
+    "s31": {
+      "file": "sources/s31-fiber-optic-fpv.mp4",
+      "in": 165,
+      "len": 10
+    },
+    "s32": {
+      "file": "sources/s32-magura-stamp.jpg",
+      "fit": "contain"
+    },
+    "s34": {
+      "file": "sources/s34-xq58-usmc-first-flight-launch.mp4",
+      "in": 1,
+      "len": 4
+    },
+    "s35": {
+      "file": "sources/s35-kizilelma.jpg",
+      "fit": "contain",
+      "precrop": [
+        0.38,
+        0.0,
+        1.0,
+        0.76
+      ],
+      "crops": [
+        null,
+        [
+          1.25,
+          62,
+          55
+        ],
+        [
+          1.3,
+          82,
+          50
+        ]
+      ]
+    },
+    "s11-takeoff": {
+      "file": "sources/s11-s12-predator-takeoff-recovery.mp4",
+      "in": 60,
+      "len": 8
+    },
+    "s34-flight": {
+      "file": "sources/unused-s34-xq58-inflight.mp4",
+      "in": 0.3,
+      "len": 14.5,
+      "url": "https://www.dvidshub.net/video/663649/xq-58a-first-flight",
+      "license": "PD",
+      "credit": "U.S. Air Force / AFRL",
+      "title": "XQ-58A First Flight",
+      "virin": "190306-F-F3456-2001"
+    }
+  },
+  "no_ticker": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s20",
+    "s22",
+    "s36",
+    "s37",
+    "s38"
+  ],
+  "sfx_map": {
+    "drone whine rising": "drone-whine-rising",
+    "scream hit": "scream-hit",
+    "cash register blip": "cash-register",
+    "click": "click",
+    "whoosh": "whoosh-1",
+    "impact boom": "impact-boom",
+    "camera shake": "camera-shake-rumble",
+    "bass drop": "bass-drop",
+    "tick-tick": "tick-tick",
+    "ping": "ping",
+    "old projector rattle": "projector-rattle",
+    "stamp thud": "stamp-thud",
+    "radar ping": "radar-ping",
+    "jet flyby": "jet-flyby",
+    "explosion": "explosion-distant",
+    "turboprop hum": "turboprop-hum",
+    "wind": "wind",
+    "missile whoosh": "missile-whoosh",
+    "hit": "impact-boom",
+    "turboprop roar": "turboprop-hum",
+    "data blips": "data-blips",
+    "radio chatter low": "radio-chatter",
+    "ping cascade": "ping-cascade",
+    "drone pass": "drone-whine-rising",
+    "record scratch": "record-scratch",
+    "crowd cheer": "crowd-cheer",
+    "heartbeat": "heartbeat",
+    "low drone": "low-drone-hum",
+    "dive whistle": "dive-whistle",
+    "tube pop": "tube-pop",
+    "boom": "impact-boom",
+    "moped buzz": "moped-buzz",
+    "distant siren": "distant-siren",
+    "impact": "impact-boom",
+    "FPV whine": "fpv-whine",
+    "static burst": "static-burst",
+    "counter roll": "counter-roll",
+    "bass hit": "bass-drop",
+    "jammer buzz": "jammer-buzz",
+    "glass break": "glass-break",
+    "cable whir": "cable-whir",
+    "engine roar": "speedboat-engine",
+    "spray": "water-spray",
+    "sonar ping": "sonar-ping",
+    "sink rumble": "sink-rumble",
+    "rocket launch": "rocket-launch",
+    "jet whoosh": "jet-whoosh",
+    "whisper reverb": "SKIP",
+    "swarm hum": "swarm-hum",
+    "build riser": "build-riser",
+    "stinger": "stinger"
+  },
+  "shots": {
+    "s01": {
+      "impacts": [
+        0.05
+      ],
+      "presenter_entrance": "left"
+    },
+    "s03": {
+      "impacts": [
+        0.6
+      ],
+      "cue": "w:racing"
+    },
+    "s04": {
+      "impacts": [
+        "w:tank"
+      ],
+      "graphic_at": "w:millions",
+      "cue": "w:And"
+    },
+    "s05": {
+      "backdrop": "burst",
+      "impacts": [
+        0.35
+      ]
+    },
+    "s06": {
+      "year": 1918,
+      "bg": [
+        {
+          "source": "gen:dawn-sky",
+          "move": "zoom_out"
+        }
+      ],
+      "graphic_data": {
+        "map": null
+      }
+    },
+    "s07": {
+      "grade": "sepia",
+      "year": 1918,
+      "bg": [
+        {
+          "source": "gen:airfield-1918",
+          "move": "pan"
+        },
+        {
+          "source": "s07",
+          "at": 1.3
+        }
+      ],
+      "cue": "w:America"
+    },
+    "s08": {
+      "impacts": [
+        0.28
+      ],
+      "year": 1918,
+      "cue": "w:never"
+    },
+    "s09": {
+      "year": 1982,
+      "cue": "w:Nineteen"
+    },
+    "s10": {
+      "year": 1982,
+      "graphic_at": "w:and",
+      "cue": "w:shoot",
+      "graphics": [
+        {
+          "component": "name-card",
+          "at": 0.1,
+          "until": "w:and",
+          "data": {
+            "name": "Mastiff",
+            "country": "Israel",
+            "maker": "Tadiran",
+            "role": "scout and decoy drone",
+            "year": "1982",
+            "year_means": "over the Bekaa"
+          }
+        }
+      ]
+    },
+    "s13": {
+      "impacts": [
+        "w:Hellfire"
+      ],
+      "graphic_at": "w:Hellfire",
+      "cue": "w:until"
+    },
+    "s16": {
+      "graphic_at": "w:Sitting",
+      "cue": "w:And"
+    },
+    "s19": {
+      "silhouette": true,
+      "cue": "w:Over"
+    },
+    "s20": {
+      "backdrop": "burst",
+      "notes": true,
+      "impacts": [
+        "w:SONG"
+      ],
+      "cue": "w:Ukraine"
+    },
+    "s22": {
+      "grade": "red",
+      "backdrop": "grid",
+      "bg": [
+        {
+          "source": "gen:red-night-sky",
+          "move": "dolly_in"
+        }
+      ]
+    },
+    "s23": {
+      "graphic_data": {
+        "after": 2.2
+      },
+      "cue": "w:Israel's"
+    },
+    "s24": {
+      "impacts": [
+        "w:BOOM"
+      ],
+      "presenter_in": "w:BOOM-0.2",
+      "cue": "w:America's"
+    },
+    "s26": {
+      "impacts": [
+        -0.9
+      ],
+      "cue": "w:Russia's"
+    },
+    "s29": {
+      "year": 2024,
+      "cue": "w:Ukraine"
+    },
+    "s30": {
+      "impacts": [
+        "w:Fine"
+      ],
+      "presenter_in": "w:Fine-0.15",
+      "cue": "w:Jam"
+    },
+    "s31": {
+      "graphic_at": "w:you",
+      "bg": [
+        {
+          "source": "gen:fibre-spool",
+          "move": "zoom_in"
+        },
+        {
+          "source": "s31",
+          "at": 1.2
+        }
+      ],
+      "cue": "w:Now"
+    },
+    "s33": {
+      "year": 2024,
+      "cue": "w:They've"
+    },
+    "s37": {
+      "impacts": [
+        -0.4
+      ]
+    },
+    "s38": {
+      "backdrop": "burst",
+      "cue": "w:Which",
+      "captions": false
+    },
+    "s12": {
+      "bg": [
+        {
+          "source": "s12"
+        },
+        {
+          "source": "gen:desert-sunset-silhouette",
+          "at": -1.6,
+          "move": "truck"
+        }
+      ],
+      "cue": "w:first"
+    },
+    "s32": {
+      "bg": [
+        {
+          "source": "gen:sea-spray",
+          "move": "handheld"
+        },
+        {
+          "source": "s32",
+          "at": 1.4
+        }
+      ]
+    },
+    "s36": {
+      "bg": [
+        {
+          "source": "gen:storm-swarm",
+          "move": "dolly_in"
+        }
+      ],
+      "cue": "w:And"
+    },
+    "s02": {
+      "cue": "w:few"
+    },
+    "s14": {
+      "cue": "w:Its"
+    },
+    "s15": {
+      "cue": "w:twenty-metre"
+    },
+    "s18": {
+      "cue": "w:Cheap"
+    },
+    "s21": {
+      "cue": "w:China",
+      "graphics": [
+        {
+          "component": "world-map",
+          "at": "w:Reportedly",
+          "data": {
+            "locator": "Libya"
+          }
+        }
+      ],
+      "graphic_until": "w:Reportedly"
+    },
+    "s25": {
+      "cue": "w:Iran's",
+      "graphic_at": "w:Russia"
+    },
+    "s28": {
+      "cue": "w:FPV."
+    },
+    "s35": {
+      "cue": "w:Turkey's"
+    },
+    "s34": {
+      "cue": "w:America's",
+      "grade": "punch",
+      "bg": [
+        {
+          "source": "s34",
+          "grade": "punch"
+        },
+        {
+          "source": "s34-flight",
+          "at": "w:Robot",
+          "move": "truck",
+          "grade": "punch"
+        }
+      ]
+    },
+    "s11": {
+      "bg": [
+        {
+          "source": "s11"
+        },
+        {
+          "source": "s11-takeoff",
+          "at": "w:American"
+        }
+      ]
+    },
+    "s27": {
+      "year": 2022
+    }
+  },
+  "highlights": {
+    "tb2-operators": [
+      "TUR",
+      "QAT",
+      "LBY",
+      "UKR",
+      "AZE",
+      "TKM",
+      "MAR",
+      "ETH",
+      "KGZ",
+      "SOM",
+      "PAK",
+      "BFA",
+      "RWA",
+      "TGO",
+      "TUN",
+      "NER",
+      "NGA",
+      "POL",
+      "MLI",
+      "ARE",
+      "IRQ",
+      "BGD",
+      "KOS",
+      "ALB",
+      "MDV",
+      "KEN",
+      "KWT",
+      "BIH",
+      "HRV"
+    ]
+  },
+  "highlight_home": {
+    "tb2-operators": "TUR"
+  },
+  "timeline_extra": [
+    {
+      "year": 1982,
+      "name": "Bekaa decoys",
+      "source": "s10"
+    }
+  ]
+}

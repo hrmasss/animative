@@ -1,0 +1,16 @@
+{
+  "_": "Generated illustration for the animatic. Never evidence: no real event, no identifiable person, no casualty, no legible text. Every file carries a provenance record beside it in the media store.",
+  "rules": "No text, no letters, no numbers, no logos, no insignia, no flags, no people, no faces, no casualties, no damage to people. Photographic, cinematic, 16:9 landscape composition.",
+  "stills": [
+    {"id": "dawn-sky", "for": "s06 origins open", "prompt": "Cinematic wide shot of a dramatic dawn sky over flat empty farmland, low layered clouds lit orange from below, a thin haze on the horizon, photographic, 16:9 landscape composition. No text, no letters, no logos, no people, no aircraft."},
+    {"id": "airfield-1918", "for": "s07 Kettering era b-roll", "prompt": "Sepia photograph style, an empty grass airfield in 1918 with a wooden hangar and a wooden launch rail on the ground, overcast sky, film grain, scratches, 16:9. No aircraft, no people, no text, no letters."},
+    {"id": "control-room", "for": "s16 ground control insert", "prompt": "Dark windowless military control room interior, two empty swivel chairs facing a wall of glowing monitors showing only abstract blue terrain imagery and soft light blobs, moody teal and orange light, shallow depth of field, cinematic, 16:9. Absolutely no text, no letters, no numbers, no symbols on any screen, no people."},
+    {"id": "desert-sunset-silhouette", "for": "s12 and s14 bridge", "prompt": "Silhouette of a generic long-winged propeller surveillance drone flying high against a burning orange desert sunset sky, sun flare, heat haze over distant mountains, cinematic telephoto, 16:9. No markings, no text, no people."},
+    {"id": "map-texture", "for": "map backgrounds", "prompt": "Top-down aged military paper map texture with faint contour lines and creases, coffee stains, warm paper tones, no labels, no text, no letters, no numbers, no symbols, 16:9 flat lay."},
+    {"id": "storm-swarm", "for": "s36 swarm", "prompt": "Dozens of small black quadcopter silhouettes flying in a loose formation against a dark stormy sky with lightning glow inside the clouds, cinematic, ominous, 16:9. No text, no people, nothing on the ground."},
+    {"id": "sea-spray", "for": "s32 Magura spray", "prompt": "Very low angle just above choppy dark grey sea at dusk, big white spray and foam thrown toward the camera, motion blur, cinematic, 16:9. No boats, no ships, no land, no people, no text."},
+    {"id": "red-night-sky", "for": "s22 kamikaze mood", "prompt": "Dark night sky over a quiet city skyline silhouette lit deep red from below, smoke haze, ominous, cinematic, 16:9. No aircraft, no explosions, no fire, no people, no text, no readable signs."},
+    {"id": "radar-dish-night", "for": "s23 Harop bridge", "prompt": "A lone ground radar dish on a hill at blue hour, faint red warning light, mist, cinematic telephoto, 16:9. No people, no text, no markings, no vehicles."},
+    {"id": "fibre-spool", "for": "s31 cable detail", "prompt": "Extreme macro close-up of a spool of thin glowing optical fibre unwinding into darkness, a single bright strand catching light, shallow depth of field, cinematic, 16:9. No text, no labels, no people, no hands."}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": "",
+  "title": "",
+  "summary": "",
+  "frame_rate": { "num": 30000, "den": 1001 },
+  "aspect": "16:9",
+  "language": "en",
+  "character": "host",
+  "voice_style": "You are the host of a lively YouTube explainer. Your delivery is energetic and dramatic, with real shouts and screams where marked.",
+  "pronunciations": [],
+  "always_on": [
+    { "component": "captions", "data": { "style": "kinetic, word-timed; shouted words are set bigger" } },
+    { "component": "music-bed", "data": { "duck_under_voice_db": -12 } }
+  ],
+  "motion_rules": [
+    "nothing sits still: every still gets a move and every move eases",
+    "cut on the beat, 2 to 5 seconds a shot; no picture holds past 3.6 s",
+    "impacts get a 6-frame shake and a white flash",
+    "single-frame presenter poses move with squash and stretch, never a tween between poses"
+  ],
+  "shots": [
+    {
+      "id": "s01", "beat": "hook", "start": 0, "end": 4, "kind": "graphic",
+      "what": "Title card", "movement": "zoom_in",
+      "graphic": { "component": "title-card", "data": { "title": "" } },
+      "presenter": { "pose": "wave", "feeling": "happy", "placement": "right third" },
+      "sfx": ["whoosh"]
+    }
+  ],
+  "narration": [{ "beat": "beats/01-hook.md" }]
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "claim": "Kettering Bug: USA, 1918, pilotless flying bomb, never saw combat",
+    "verdict": "TRUE",
+    "note": "Designed by Charles Kettering, built by Dayton-Wright; fewer than 50 built.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198095/kettering-aerial-torpedo-bug/"
+  },
+  {
+    "claim": "Bekaa Valley 1982: drones baited Syrian radars, jets destroyed most batteries in about two hours",
+    "verdict": "REWORDED",
+    "note": "Drones were the bait, jets did the killing. Script now says 'most of'. Battery counts vary by account.",
+    "source": "https://en.wikipedia.org/wiki/Operation_Mole_Cricket_19"
+  },
+  {
+    "claim": "MQ-1 Predator: General Atomics, first flight 1994, armed 2001, first armed strikes in Afghanistan",
+    "verdict": "TRUE",
+    "note": "First flight 3 July 1994; first armed strike 7 Oct 2001; retired by the USAF in 2018.",
+    "source": "https://www.airforcetimes.com/news/your-air-force/2018/02/16/air-force-announces-official-retirement-date-for-iconic-mq-1-predator"
+  },
+  {
+    "claim": "MQ-9 Reaper: 20 m wingspan, more than a day aloft, crews in Nevada",
+    "verdict": "REWORDED",
+    "note": "General Atomics quotes 27+ hours. Script now says 'many of its crews': Creech is not the only base.",
+    "source": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9a"
+  },
+  {
+    "claim": "Bayraktar TB2: Turkey, Baykar, 2014, 30+ countries, Nagorno-Karabakh 2020, Ukrainian song",
+    "verdict": "TRUE",
+    "note": "First flight Aug 2014. Song 'Bayraktar' by Taras Borovok, March 2022.",
+    "source": "https://en.wikipedia.org/wiki/Baykar_Bayraktar_TB2"
+  },
+  {
+    "claim": "Wing Loong II: China, AVIC, 2017, exported",
+    "verdict": "REWORDED",
+    "note": "Sales are reported, not confirmed. Script now says 'reportedly' and names Libya.",
+    "source": "https://en.wikipedia.org/wiki/CAIG_Wing_Loong"
+  },
+  {
+    "claim": "Harop: Israel, IAI, loiters for hours, hunts radar signals",
+    "verdict": "TRUE",
+    "note": "IAI lists up to 9 hours. Also flies by camera. Used by Azerbaijan in 2016 and 2020.",
+    "source": "https://www.iai.co.il/p/harop"
+  },
+  {
+    "claim": "Switchblade: USA, AeroVironment, backpack, tube-launched",
+    "verdict": "TRUE",
+    "note": "300 introduced 2011, in Afghanistan late 2012; sent to Ukraine 2022.",
+    "source": "https://en.wikipedia.org/wiki/AeroVironment_Switchblade"
+  },
+  {
+    "claim": "Shahed-136: Iran; Russia uses it as Geran-2 against Ukrainian cities",
+    "verdict": "TRUE",
+    "note": "First public footage Dec 2021; first Russian use 13 Sep 2022; built at Alabuga too.",
+    "source": "https://en.wikipedia.org/wiki/HESA_Shahed_136"
+  },
+  {
+    "claim": "Lancet: Russia, ZALA, hunts artillery",
+    "verdict": "TRUE",
+    "note": "Unveiled 2019; nearly half of logged strikes hit artillery.",
+    "source": "https://en.wikipedia.org/wiki/ZALA_Lancet"
+  },
+  {
+    "claim": "FPV: a few hundred dollars, over a million fielded by Ukraine in 2024",
+    "verdict": "REWORDED",
+    "note": "Ukraine's MoD: about 1.1 million FPVs in the first 11 months of 2024. Russian totals are claims, so the script cites Ukraine only.",
+    "source": "https://ukrinform.net/rubric-ato/3936662-ukrainian-forces-receive-12-million-drones-since-yearstart-defense-ministry.html"
+  },
+  {
+    "claim": "Fibre-optic FPVs fly on kilometres of cable and can't be jammed",
+    "verdict": "TRUE",
+    "note": "Spread through 2024 and 2025. Kyiv Independent, May 2025: most spools 10 km, some 15 km, 20 km in testing. The War Zone, May 2025: ranges up to 15 km. Script says 'kilometres of it', which both support.",
+    "source": "https://kyivindependent.com/as-russias-fiber-optic-drones-flood-the-battlefield-ukraine-is-racing-to-catch-up/",
+    "also": "https://www.twz.com/news-features/inside-ukraines-fiber-optic-drone-war"
+  },
+  {
+    "claim": "Magura V5 sea drones sank Russian warships in the Black Sea",
+    "verdict": "TRUE",
+    "note": "Ivanovets, 1 Feb 2024, among others.",
+    "source": "https://en.wikipedia.org/wiki/MAGURA_V5"
+  },
+  {
+    "claim": "XQ-58 Valkyrie: first flight 2019, built to fly beside fighters",
+    "verdict": "TRUE",
+    "note": "5 Mar 2019, Yuma.",
+    "source": "https://www.af.mil/News/Article-Display/Article/1778146/xq-58a-valkyrie-demonstrator-completes-inaugural-flight/"
+  },
+  {
+    "claim": "Kızılelma: Turkey, jet-powered drone fighter, 2022",
+    "verdict": "TRUE",
+    "note": "First flight 14 Dec 2022.",
+    "source": "https://en.wikipedia.org/wiki/Baykar_Bayraktar_K%C4%B1z%C4%B1lelma"
+  },
+  {
+    "claim": "A few-hundred-dollar drone can knock out a multi-million tank",
+    "verdict": "REWORDED",
+    "note": "Well documented, though it often takes several. Script says 'can'.",
+    "source": "https://www.rusi.org/news-and-comment/in-the-news/tech-can-give-europe-more-bang-defence-buck"
+  }
+]
