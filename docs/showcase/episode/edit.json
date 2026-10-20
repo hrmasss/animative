@@ -1,0 +1,87 @@
+{
+  "_": "Showcase edit: one public-domain photo, a highlighted map, kit graphics.",
+  "beat_gap": 0.2,
+  "tail": 1.0,
+  "sfx_gain_db": -7.5,
+  "music": {
+    "file": "sound/music/bed.wav",
+    "lufs": -20
+  },
+  "sources": {
+    "s2": {
+      "file": "sources/s2-predator.jpg"
+    }
+  },
+  "highlights": {
+    "exports": [
+      "TUR",
+      "QAT",
+      "LBY",
+      "UKR",
+      "AZE",
+      "TKM",
+      "MAR",
+      "ETH",
+      "KGZ",
+      "SOM",
+      "PAK",
+      "BFA",
+      "RWA",
+      "TGO",
+      "TUN",
+      "NER",
+      "NGA",
+      "POL",
+      "MLI",
+      "ARE",
+      "IRQ",
+      "BGD",
+      "KOS",
+      "ALB",
+      "MDV",
+      "KEN",
+      "KWT",
+      "BIH",
+      "HRV"
+    ]
+  },
+  "highlight_home": {
+    "exports": "USA"
+  },
+  "timeline_extra": [
+    {
+      "year": 1918,
+      "name": "Kettering Bug"
+    },
+    {
+      "year": 2014,
+      "name": "Bayraktar TB2"
+    },
+    {
+      "year": 2019,
+      "name": "XQ-58 Valkyrie"
+    }
+  ],
+  "shots": {
+    "s1": {
+      "backdrop": "burst",
+      "impacts": [
+        0.35
+      ]
+    },
+    "s2": {
+      "impacts": [
+        "w:HELLFIRE!"
+      ],
+      "graphic_at": 0.6
+    },
+    "s5": {
+      "year": 2024
+    },
+    "s6": {
+      "impacts": [
+        -0.4
+      ]
+    }
+  }
+}

@@ -531,7 +531,9 @@ def copy_assets(ep: Ep) -> None:
     shutil.copy2(kit / "kit.js", ep.hf / "kit.js")
     shutil.copy2(kit / "kit.css", ep.hf / "kit.css")
     shutil.copy2(gsap, ep.hf / "gsap.min.js")
-    shutil.copytree(layout.ensure_cut(ep.character), a / "character", dirs_exist_ok=True)
+    if any(s.get("presenter") for s in ep.episode["shots"]):
+        # a video with no host on screen needs no host at all
+        shutil.copytree(layout.ensure_cut(ep.character), a / "character", dirs_exist_ok=True)
     world_js(ep, ep.hf / "world.js")
     grain(ep.hf / "assets" / "grain.png")
 

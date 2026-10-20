@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "id": "showcase",
+  "title": "Showcase",
+  "summary": "Six shots that show what the kit draws. No host, no voice; captions from planned timing.",
+  "frame_rate": {
+    "num": 30000,
+    "den": 1001
+  },
+  "aspect": "16:9",
+  "language": "en",
+  "character": "host",
+  "pronunciations": [],
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "title",
+      "start": 0,
+      "end": 4,
+      "kind": "graphic",
+      "what": "Title card",
+      "movement": "zoom_in",
+      "graphic": {
+        "component": "title-card",
+        "data": {
+          "title": "THE DRONE WAR"
+        }
+      },
+      "sfx": []
+    },
+    {
+      "id": "s2",
+      "beat": "hellfire",
+      "start": 4,
+      "end": 9,
+      "kind": "still_motion",
+      "what": "Predator with Hellfire missiles",
+      "movement": "zoom_in",
+      "angle": "low",
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:MQ-1_Predator,_armed_with_AGM-114_Hellfire_missiles.jpg",
+        "license": "PD",
+        "credit": "U.S. Air Force / Lt. Col. Leslie Pratt",
+        "want": "Predator photo"
+      },
+      "graphic": {
+        "component": "name-card",
+        "data": {
+          "name": "MQ-1 Predator",
+          "country": "USA",
+          "maker": "General Atomics",
+          "year": "1994",
+          "year_means": "first flight",
+          "role": "surveillance, then strike"
+        }
+      },
+      "sfx": []
+    },
+    {
+      "id": "s3",
+      "beat": "exports",
+      "start": 9,
+      "end": 13,
+      "kind": "graphic",
+      "what": "Export map",
+      "graphic": {
+        "component": "world-map",
+        "data": {
+          "highlight": "exports"
+        }
+      },
+      "sfx": []
+    },
+    {
+      "id": "s4",
+      "beat": "loiter",
+      "start": 13,
+      "end": 17,
+      "kind": "graphic",
+      "what": "Loiter and dive",
+      "graphic": {
+        "component": "diagram",
+        "data": {
+          "name": "loiter-dive"
+        }
+      },
+      "sfx": []
+    },
+    {
+      "id": "s5",
+      "beat": "count",
+      "start": 17,
+      "end": 21,
+      "kind": "graphic",
+      "what": "Counter",
+      "graphic": {
+        "component": "counter",
+        "data": {
+          "to": "1,100,000+",
+          "unit": "FPVs fielded in one year"
+        }
+      },
+      "sfx": []
+    },
+    {
+      "id": "s6",
+      "beat": "recap",
+      "start": 21,
+      "end": 26,
+      "kind": "graphic",
+      "what": "Timeline recap",
+      "movement": "zoom_out",
+      "graphic": {
+        "component": "timeline",
+        "data": {
+          "recap": true
+        }
+      },
+      "sfx": []
+    }
+  ],
+  "narration": [
+    {
+      "beat": "beats/01-title.md"
+    },
+    {
+      "beat": "beats/02-hellfire.md"
+    },
+    {
+      "beat": "beats/03-exports.md"
+    },
+    {
+      "beat": "beats/04-loiter.md"
+    },
+    {
+      "beat": "beats/05-count.md"
+    },
+    {
+      "beat": "beats/06-recap.md"
+    }
+  ]
+}
