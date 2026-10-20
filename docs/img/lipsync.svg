@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Lip-sync: words to sound groups to mouth shapes</title>
+  <rect width="760" height="330" rx="14" fill="#fbfaf7"/>
+  <text x="28" y="40" font-size="17" font-weight="700" fill="#1f2328">Lip-sync from the voice track</text>
+  <text x="28" y="62" font-size="12.5" fill="#6b7280">Speech-to-text times every word. Each word splits into sound groups, and each group shows one mouth.</text>
+
+  <g font-size="11" fill="#6b7280">
+    <text x="28" y="104">words</text>
+    <text x="28" y="164">sounds</text>
+    <text x="28" y="232">mouth</text>
+  </g>
+  <line x1="100" y1="282" x2="732" y2="282" stroke="#d1d5db"/>
+  <g font-size="10.5" fill="#9ca3af">
+    <text x="100" y="298">0.0 s</text><text x="300" y="298">0.4 s</text><text x="500" y="298">0.8 s</text><text x="700" y="298">1.2 s</text>
+  </g>
+
+  <!-- words -->
+  <g font-size="14" font-weight="700" fill="#1f2328">
+    <rect x="100" y="86" width="150" height="28" rx="6" fill="#e8eefb"/><text x="175" y="105" text-anchor="middle">show</text>
+    <rect x="262" y="86" width="120" height="28" rx="6" fill="#e8eefb"/><text x="322" y="105" text-anchor="middle">me</text>
+    <rect x="420" y="86" width="190" height="28" rx="6" fill="#e8eefb"/><text x="515" y="105" text-anchor="middle">more!</text>
+  </g>
+  <text x="640" y="105" font-size="11" fill="#e8590c">shouted</text>
+
+  <!-- visemes -->
+  <g font-size="12" font-weight="600" fill="#1f2328" text-anchor="middle">
+    <rect x="100" y="146" width="72" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="136" y="164">etc</text>
+    <rect x="178" y="146" width="72" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="214" y="164">O</text>
+    <rect x="262" y="146" width="58" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="291" y="164">MBP</text>
+    <rect x="326" y="146" width="56" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="354" y="164">E</text>
+    <rect x="386" y="146" width="30" height="26" rx="5" fill="#f3f4f6"/><text x="401" y="164" fill="#9ca3af">rest</text>
+    <rect x="420" y="146" width="60" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="450" y="164">MBP</text>
+    <rect x="486" y="146" width="62" height="26" rx="5" fill="#fff4ec" stroke="#e8590c"/><text x="517" y="164" fill="#e8590c">O → shout</text>
+    <rect x="554" y="146" width="56" height="26" rx="5" fill="#fff" stroke="#d1d5db"/><text x="582" y="164">etc</text>
+  </g>
+
+  <!-- mouths -->
+  <g stroke="#1f2328" stroke-width="1.5">
+    <path d="M118 232 Q136 222 154 232 Q136 246 118 232 Z" fill="#a8323e"/>
+    <ellipse cx="214" cy="232" rx="11" ry="15" fill="#a8323e"/>
+    <path d="M272 232 Q291 226 310 232" fill="none" stroke-width="3"/>
+    <path d="M334 228 Q354 222 374 228 Q354 244 334 228 Z" fill="#fff"/>
+    <path d="M430 232 Q450 226 470 232" fill="none" stroke-width="3"/>
+    <ellipse cx="517" cy="232" rx="20" ry="22" fill="#a8323e"/>
+    <ellipse cx="517" cy="244" rx="11" ry="7" fill="#e07a7a" stroke="none"/>
+    <path d="M564 232 Q582 222 600 232 Q582 246 564 232 Z" fill="#a8323e"/>
+  </g>
+  <text x="620" y="226" font-size="10.5" fill="#6b7280">blinks run on</text>
+  <text x="620" y="240" font-size="10.5" fill="#6b7280">their own clock,</text>
+  <text x="620" y="254" font-size="10.5" fill="#6b7280">every 2.4 to 4.2 s</text>
+</svg>

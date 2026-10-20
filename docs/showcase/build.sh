@@ -37,5 +37,5 @@ for s in t["shots"]:
                     "-vf", "scale=960:-2", f"{out}/showcase-{s['id']}.png"], check=True)
 PY
 # the first two shots as a loop: title card, then the photo with its name card and caption
-ffmpeg -v error -y -t 9 -i "$video" -vf "fps=12,scale=640:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=96[p];[b][p]paletteuse=dither=bayer:bayer_scale=4" "$img/showcase.gif"
+ffmpeg -v error -y -t 8 -i "$video" -vf "fps=10,scale=480:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=64[p];[b][p]paletteuse=dither=bayer:bayer_scale=5" "$img/showcase.gif"
 ls -la "$img"

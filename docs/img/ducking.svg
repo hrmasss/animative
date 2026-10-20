@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>The mix: music ducks 12 dB under the voice</title>
+  <rect width="760" height="300" rx="14" fill="#fbfaf7"/>
+  <text x="28" y="40" font-size="17" font-weight="700" fill="#1f2328">The mix: three layers, levelled and ducked</text>
+  <text x="28" y="62" font-size="12.5" fill="#6b7280">Voice at -16 LUFS. The music bed at -20 LUFS dips 12 dB while anyone speaks. Effects sit 7.5 dB under both.</text>
+
+  <g font-size="11" fill="#6b7280">
+    <text x="28" y="108">voice</text>
+    <text x="28" y="168">music</text>
+    <text x="28" y="240">effects</text>
+  </g>
+
+  <!-- voice activity -->
+  <g fill="#2f6fd0">
+    <rect x="110" y="94" width="150" height="20" rx="4"/>
+    <rect x="300" y="94" width="210" height="20" rx="4"/>
+    <rect x="590" y="94" width="120" height="20" rx="4"/>
+  </g>
+
+  <!-- music gain line: 0 dB at y=140, -12 dB at y=192 -->
+  <line x1="100" y1="140" x2="730" y2="140" stroke="#e5e7eb" stroke-dasharray="4 4"/>
+  <line x1="100" y1="192" x2="730" y2="192" stroke="#e5e7eb" stroke-dasharray="4 4"/>
+  <text x="732" y="144" font-size="10.5" fill="#9ca3af" text-anchor="end" dx="-4" dy="-4">0 dB</text>
+  <text x="732" y="196" font-size="10.5" fill="#9ca3af" text-anchor="end" dx="-4" dy="12">-12 dB</text>
+  <path d="M100 140 L104 140 L112 192 L260 192 L280 140 L298 140 L306 192 L510 192 L530 140 L588 140 L596 192 L710 192 L730 140"
+        fill="none" stroke="#e8590c" stroke-width="3" stroke-linejoin="round"/>
+  <text x="113" y="208" font-size="10.5" fill="#e8590c">80 ms attack</text>
+  <text x="265" y="132" font-size="10.5" fill="#e8590c">300 ms release</text>
+
+  <!-- effects -->
+  <g fill="#6b7280">
+    <path d="M140 250 l6 -16 l6 16 Z"/><text x="146" y="270" font-size="10.5" text-anchor="middle">whoosh</text>
+    <path d="M300 250 l6 -24 l6 24 Z"/><text x="306" y="270" font-size="10.5" text-anchor="middle">impact</text>
+    <path d="M450 250 l6 -18 l6 18 Z"/><text x="456" y="270" font-size="10.5" text-anchor="middle">radar ping</text>
+    <path d="M590 250 l6 -16 l6 16 Z"/><text x="596" y="270" font-size="10.5" text-anchor="middle">whoosh</text>
+  </g>
+  <text x="28" y="290" font-size="11" fill="#9ca3af">Every cut gets a soft whoosh. Impacts marked in the edit also land a 6-frame shake and a white flash on screen.</text>
+</svg>

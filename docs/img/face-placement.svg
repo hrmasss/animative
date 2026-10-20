@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>How a face lands on a blank-faced pose</title>
+  <rect width="760" height="420" rx="14" fill="#fbfaf7"/>
+  <text x="28" y="40" font-size="17" font-weight="700" fill="#1f2328">Face placement: every pose, no per-pose tuning</text>
+  <text x="28" y="62" font-size="12.5" fill="#6b7280">The cut finds each pose's face box and beard line. Parts are placed as shares of the face width.</text>
+
+  <!-- blank pose -->
+  <g transform="translate(70,90)">
+    <text x="70" y="0" font-size="12" font-weight="600" fill="#6b7280" text-anchor="middle">1 · BLANK POSE</text>
+    <ellipse cx="70" cy="70" rx="68" ry="52" fill="#2b2b30"/>
+    <ellipse cx="70" cy="98" rx="46" ry="54" fill="#f0b892"/>
+    <path d="M24 118 Q70 112 116 118 L112 160 Q70 196 28 160 Z" fill="#2b2b30"/>
+    <rect x="34" y="176" width="72" height="104" rx="14" fill="#2b2b30"/>
+    <rect x="40" y="276" width="26" height="28" rx="6" fill="#3b3f58"/>
+    <rect x="74" y="276" width="26" height="28" rx="6" fill="#3b3f58"/>
+  </g>
+
+  <path d="M240 220 L282 220" stroke="#9ca3af" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- detected -->
+  <g transform="translate(300,90)">
+    <text x="70" y="0" font-size="12" font-weight="600" fill="#6b7280" text-anchor="middle">2 · DETECTED</text>
+    <ellipse cx="70" cy="70" rx="68" ry="52" fill="#2b2b30"/>
+    <ellipse cx="70" cy="98" rx="46" ry="54" fill="#f0b892"/>
+    <path d="M24 118 Q70 112 116 118 L112 160 Q70 196 28 160 Z" fill="#2b2b30"/>
+    <rect x="34" y="176" width="72" height="104" rx="14" fill="#2b2b30"/>
+    <rect x="24" y="44" width="92" height="74" fill="none" stroke="#e8590c" stroke-width="2" stroke-dasharray="5 4"/>
+    <line x1="10" y1="118" x2="130" y2="118" stroke="#2f6fd0" stroke-width="2.5"/>
+    <text x="134" y="122" font-size="11.5" fill="#2f6fd0">beard line</text>
+    <text x="142" y="56" font-size="11.5" fill="#e8590c">face box</text>
+  </g>
+
+  <path d="M470 220 L512 220" stroke="#9ca3af" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- placed -->
+  <g transform="translate(530,90)">
+    <text x="70" y="0" font-size="12" font-weight="600" fill="#6b7280" text-anchor="middle">3 · PLACED</text>
+    <ellipse cx="70" cy="70" rx="68" ry="52" fill="#2b2b30"/>
+    <ellipse cx="70" cy="98" rx="46" ry="54" fill="#f0b892"/>
+    <path d="M24 118 Q70 112 116 118 L112 160 Q70 196 28 160 Z" fill="#2b2b30"/>
+    <rect x="34" y="176" width="72" height="104" rx="14" fill="#2b2b30"/>
+    <!-- eyes -->
+    <g>
+      <ellipse cx="50" cy="85" rx="11" ry="9" fill="#fff" stroke="#1f2328" stroke-width="1.5"/>
+      <circle cx="50" cy="86" r="5" fill="#3a2a22"/>
+      <path d="M38 72 Q50 66 62 72" stroke="#1f2328" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="90" cy="85" rx="11" ry="9" fill="#fff" stroke="#1f2328" stroke-width="1.5"/>
+      <circle cx="90" cy="86" r="5" fill="#3a2a22"/>
+      <path d="M78 72 Q90 66 102 72" stroke="#1f2328" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+    <path d="M66 98 Q70 108 74 104" stroke="#c97d55" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M48 118 Q70 108 92 118 Q70 132 48 118 Z" fill="#a8323e" stroke="#1f2328" stroke-width="1.5"/>
+    <path d="M44 114 Q58 104 70 112 Q82 104 96 114 Q82 118 70 115 Q58 118 44 114 Z" fill="#1f2328"/>
+  </g>
+
+  <!-- formula strip -->
+  <g transform="translate(28,350)" font-size="12.5" fill="#1f2328">
+    <rect width="704" height="46" rx="8" fill="#f1efe8"/>
+    <text x="14" y="20"><tspan font-weight="700" fill="#e8590c">eyes</tspan> 36% of face width, ±22% from centre, 56% of the way from face top to beard line</text>
+    <text x="14" y="37"><tspan font-weight="700" fill="#2f6fd0">nose</tspan> 62% of the way from eye line to beard line · <tspan font-weight="700" fill="#a8323e">mouth</tspan> on the beard line (a clean-shaven host sits it above the chin)</text>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>
