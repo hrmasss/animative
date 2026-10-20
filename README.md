@@ -68,7 +68,7 @@ Any character works: you, a friend (with their OK), a mascot, an animal. You gen
 image with your usual tool, and the rest is mechanical.
 
 ```mermaid
-flowchart LR
+flowchart TB
     ref["Base figure<br/><i>from a photo or a description</i>"] --> sheets["Sprite sheets<br/><i>poses with blank faces,<br/>rows of eyes, noses, mouths</i>"]
     sheets --> inspect["animative inspect<br/><i>numbers every piece</i>"]
     inspect --> rigj["rig.json<br/><i>labels, feelings,<br/>mouth shapes for speech</i>"]
@@ -124,7 +124,7 @@ instead of pumping.
 ## How it renders
 
 ```mermaid
-flowchart LR
+flowchart TB
     spec["Shot spec<br/><i>episode.json + edit.json<br/>+ word timings</i>"] --> page["One HTML page per shot<br/><i>graphics kit + GSAP timeline</i>"]
     page --> hf["HyperFrames<br/><i>frame-exact headless render</i>"]
     hf --> clips["Shot clips<br/><i>cached by content hash</i>"]
